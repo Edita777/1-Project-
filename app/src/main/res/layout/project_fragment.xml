@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    :android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.twf_final.view.ProjectFragment">
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerViewProject"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/Menu"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="130dp"
+        android:layout_marginBottom="70dp"
+        android:paddingStart="22dp"
+        android:paddingEnd="22dp"
+        android:scrollbars="vertical" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="24dp"
+        android:layout_marginBottom="100dp"
+        android:layout_marginEnd="24dp"
+        android:text="NEW Project" />
+
+    <TextView
+        android:id="@+id/MenuProject"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/Menu"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="-65dp"
+        android:text="PROJECT"
+        android:layout_marginLeft="24dp"
+        android:gravity="center_horizontal"
+        android:background="@color/lightgrey"
+        android:textColor="@color/colorPrimary"
+        android:textSize="28dp" />
+
+    <TextView
+        android:id="@+id/Menu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="70dp"
+        android:layout_marginBottom="-80dp"
+        android:text="Menu"
+        android:textStyle="bold"
+        android:textColor="@color/colorPrimary"
+        android:textSize="25dp" />
+
+
+</RelativeLayout>
